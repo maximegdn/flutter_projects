@@ -20,8 +20,6 @@ class _DiceRollerState extends State<DiceRoller> {
     setState(() {
       currentDiceRoll = Random().nextInt(6) +1;
     });
-
-
   }
 
   @override
